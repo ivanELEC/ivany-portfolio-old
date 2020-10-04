@@ -2,7 +2,6 @@ import React from "react"; // we need this to make JSX compile
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 
 export const Header: React.FunctionComponent = () => {
@@ -12,17 +11,17 @@ export const Header: React.FunctionComponent = () => {
 
   //element render
   return (
-    <div>
+    <div className="App-header">
       <Container fluid>
         <Row>
           <Col>
-            <Link to="/">
+            <Link to="/" className="App-Link">
               <div>Ivan Yohuno - Full Stack Developer</div>
             </Link>
           </Col>
           <Col>
-            <Link to="/skills">
-              <Button variant="dark">Skills</Button>
+            <Link to="/skills" className="App-Link">
+              <div>Skills</div>
             </Link>
           </Col>
         </Row>

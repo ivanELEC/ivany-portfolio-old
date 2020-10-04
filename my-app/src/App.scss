@@ -1,5 +1,28 @@
+//fonts
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700&display=swap'); //Fira Sans
+
+//variables//
+//colours
+$mainText:#06040d;
+$dark: #474F51;
+$lighterDark: #909EB1;
+$lightestDark: #A1AEBF;
+$light: #CFD7DD;
+$ivory: #FFFDED;
+
+.App-Link {
+  color:$mainText;
+  text-decoration: underline;
+}
+
+.App-Link:hover{
+  color:$mainText;
+}
+
 .App {
   text-align: center;
+  font-family:"Fira Sans";
+  color:$mainText;
 }
 
 .App-logo {
@@ -14,25 +37,23 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color:white;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 1%;
+  font-weight:bold;
 }
 
-.App-link {
-  color: #61dafb;
+.Card-Spacing{
+  margin:2%;
+  margin-right:2%;
+  margin-left:2%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Card{
+  
 }
+

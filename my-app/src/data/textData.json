@@ -1,0 +1,17 @@
+{
+  "header": {
+    "title": "Ivan Yohuno - Full Stack Developer",
+    "nextPage": "Skills"
+  },
+  "home": {
+    "profile": {
+      "title": "Profile"
+    },
+    "profileImage": "",
+    "links": [
+      { "title": "Email", "link": "", "icon": "" },
+      { "title": "LinkedIn", "link": "", "icon": "" },
+      { "title": "Github", "link": "", "icon": "" }
+    ]
+  }
+}
